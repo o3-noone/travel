@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.001px;
+}
+.container{
+    min-width: 100vh;
+    height: 100vh;
+    background-color: #141414;
+}
+.wrapper {
+    max-width: 1960px;
+    width: 100%;
+}
+
+.p4 {
+    padding: 0 4%;
+}
+
+.header {
+    max-width: 1960px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    margin: 0;
+}
+
+.header-list {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.header-item>a {
+    color: white;
+    transition: color 0.5s ease-in-out;
+
+}
+
+.header-item>a:hover {
+    color: yellow;
+    transition: color 0.5s ease-in-out;
+
+}
+
+.btn {
+    padding: 6px 25px;
+}
+
+.btn-trip {
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border 0.3s ease-in-out;
+
+}
+
+.btn-trip:hover {
+    border: 1px solid yellow;
+    transition: border 0.3s ease-in-out;
+}
+
+.heroBg {
+    width: 100%;
+
+    height: 900px;
+    background-image: url("../images/slider1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.hero {
+    width: 100%;
+    padding-top: 130px;
+    height: 900px;
+    background: linear-gradient(180deg, rgb(24, 39, 74) 0%, rgba(255, 255, 255, 0) 50%, rgb(24, 39, 74) 100%);
+}
